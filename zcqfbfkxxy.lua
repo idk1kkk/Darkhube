@@ -122,7 +122,7 @@ local Button = BigPaiunt:CreateButton({
 local DaHood = Window:CreateTab("Da Hood", nil) -- Title, Image
 local Section = DaHood:CreateSection("Da Hood")
 
-local Button = Arsenal:CreateButton({
+local Button = DaHood:CreateButton({
    Name = "Da Hood Hub",
    Callback = function() 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))()
