@@ -78,6 +78,13 @@ local Button = UniversalScripts:CreateButton({
    end,
 })
 
+local Button = UniversalScripts:CreateButton({
+   Name = "Universal Silent Aim",
+   Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))()
+   end,
+})
+
 local MM2 = Window:CreateTab("MM2", nil) -- Title, Image
 local Section = MM2:CreateSection("MM2")
 
